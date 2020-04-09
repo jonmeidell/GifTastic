@@ -1,6 +1,6 @@
 $("#gifButtons").on("click", function () {
-
-    var queryURL = "https://api.giphy.com/v1/gifs/random?api_key=TTHmuR09JA1TQxrBy3MdvauG7SdkhpsZ?q=" + pong + "limit=10";
+                                                                                                        // put in what button says
+    var queryURL = "https://api.giphy.com/v1/gifs/random?api_key=TTHmuR09JA1TQxrBy3MdvauG7SdkhpsZ?q=" + button-press + "limit=10";
     $.ajax({
         url: queryURL,
         method: "GET",
