@@ -3,4 +3,11 @@ body {
     background-image: url("../images/snow.jpg");
     background-repeat: repeat-y;
     color: magenta;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.gifButtons {
+    margin: 5px;
 }
