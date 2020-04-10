@@ -2,7 +2,7 @@ $("#gifButtons").on("click", function () {
     // put in what button says
     var topic = $("#gifTopic-input").val();
     $(topic).append("#gifButtons");
-    document.getElementBy
+    document.getElementById(topic);
     var queryURL = "https://api.giphy.com/v1/gifs/search?api_key=BkaUZZWcFij6J7AoQj3WtPb1R2p9O6V9&q=" + topic + "&limit=10&rating=pg";
     $.ajax({
         url: queryURL,
