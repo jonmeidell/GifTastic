@@ -1,9 +1,8 @@
 $("#gifButtons").on("click", function () {
-
-    // was unable to finish up to do list 
     // put in what button says
     var topic = $("#gifTopic-input").val();
-    var queryURL = "https://api.giphy.com/v1/gifs/search?api_key=BkaUZZWcFij6J7AoQj3WtPb1R2p9O6V9&q="+topic+"&limit=10";
+    $(topic).append("#gifButtons");
+    var queryURL = "https://api.giphy.com/v1/gifs/search?api_key=BkaUZZWcFij6J7AoQj3WtPb1R2p9O6V9&q=" + topic + "&limit=10&rating=pg";
     $.ajax({
         url: queryURL,
         method: "GET",
@@ -12,7 +11,7 @@ $("#gifButtons").on("click", function () {
         console.log(response);
 
         var choices = response.data;
-       
+
         for (var i = 0; i < choices.length; i++) {
             console.log("yes!");
             var gifDiv = $("<div>");
@@ -24,12 +23,11 @@ $("#gifButtons").on("click", function () {
             $(selectedGif).attr("data-animate", choices[i].images.fixed_height_still.url);
             $(selectedGif).attr("data-state", "still");
             $(selectedGif).addClass("gif");
-            $(gifDiv).append(rating);
             $(gifDiv).append(title);
             $(gifDiv).append(selectedGif);
+            $(gifDiv).append(rating);
             $("#gifAreaDiv").prepend(gifDiv);
         }
-        // $("#gifAreaDiv").prepend("<img src='" + response.data.images.downsized_large.url + "'>");
     });
 
     $(".gif").on("click", ".gif", function () {
@@ -42,5 +40,4 @@ $("#gifButtons").on("click", function () {
             $(this).attr("data-state", "still");
         }
     });
-
 });
