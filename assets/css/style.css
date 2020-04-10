@@ -1,0 +1,6 @@
+body {
+    background-color: midnightblue;
+    background-image: url("../images/snow.jpg");
+    background-repeat: repeat-y;
+    color: magenta;
+}

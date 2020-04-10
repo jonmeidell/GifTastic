@@ -2,18 +2,17 @@ $("#gifButtons").on("click", function () {
     // put in what button says
     var topic = $("#gifTopic-input").val();
     $(topic).append("#gifButtons");
+    document.getElementBy
     var queryURL = "https://api.giphy.com/v1/gifs/search?api_key=BkaUZZWcFij6J7AoQj3WtPb1R2p9O6V9&q=" + topic + "&limit=10&rating=pg";
     $.ajax({
         url: queryURL,
         method: "GET",
         // Get and parse the response to retrieve the URL
     }).then(function (response) {
-        console.log(response);
 
         var choices = response.data;
 
         for (var i = 0; i < choices.length; i++) {
-            console.log("yes!");
             var gifDiv = $("<div>");
             var selectedGif = $("<img>");
             var rating = $("<p>").text("Rated " + choices[i].rating);
@@ -29,15 +28,19 @@ $("#gifButtons").on("click", function () {
             $("#gifAreaDiv").prepend(gifDiv);
         }
     });
-
-    $(".gif").on("click", ".gif", function () {
-        var gifState = $(this).attr("data-state");
+    // not animating gifs on click - make changes to html?
+    $(".gif").on("click", function () {
+        var state = $(this).attr("data-state");
         if (state === "still") {
             $(this).attr("src", $(this).attr("data-animate"));
             $(this).attr("data-state", "animate");
-        } else {
+            console.log(state);
+        }
+
+        if (state === "animate") {
             $(this).attr("src", $(this).attr("data-still"));
             $(this).attr("data-state", "still");
+            console.log(this);
         }
     });
 });
