@@ -8,4 +8,4 @@ _Uses **API calls** and **Javascript**._
   * _Need to clear out gifs when new button is pressed._
   * _Still wanting to clean up layout a bit._
       
-![GifTastico!](https://jonmeidell.github.io/assets/images/gif.gif)
+![GifTastico!](https://jonmeidell.github.io/GifTastic/assets/images/readme.gif)
