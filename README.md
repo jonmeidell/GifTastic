@@ -9,7 +9,9 @@ A site used to generate gifs based off of the search entered into the search-bar
 
 ![Example2](https://jonmeidell.github.io/GifTastic/assets/images/example2.PNG)
 
-_Uses **API calls** and **Javascript**._
+_Technologies used:_
+  * API calls
+  * Javascript
 
 #### Improvements to be made:
   * _Need to clear out gifs when new button is pressed._
