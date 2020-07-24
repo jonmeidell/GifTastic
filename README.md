@@ -8,10 +8,11 @@
 <div align="center">
 
 _**A site used to generate gifs based off of the search entered into the search-bar, 10 at-a-time.**_
-</div>
 
-* When you search for gifs, it creates a quick-link button that you can re-use again-and-again.
-* Clicking on thumbnails will toggle, on-and-off, the gifs playing.
+When you search for gifs, it creates a quick-link button that you can re-use again-and-again.
+
+Clicking on thumbnails will toggle, on-and-off, the gifs playing.
+</div>
 
 ![Example2](https://jonmeidell.github.io/GifTastic/assets/images/example2.PNG)
 
