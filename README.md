@@ -12,12 +12,12 @@ Clicking on thumbnails will toggle, on-and-off, the gifs playing.
 
 ![Example2](https://jonmeidell.github.io/GifTastic/assets/images/example2.PNG)
 
-#### Technologies used:
+### Technologies used:
 _API calls_
 
 _Javascript_
 
-#### Improvements to be made:
+### Improvements to be made:
 _Need to clear out gifs when new button is pressed._
 
 _Still wanting to clean up layout a bit._
