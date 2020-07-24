@@ -1,4 +1,4 @@
-# GifTastic
+# ¡GifTastico!
 
 
 ![Example1](https://jonmeidell.github.io/GifTastic/assets/images/example1.PNG)
