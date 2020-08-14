@@ -18,7 +18,7 @@ _API calls_
 _Javascript_
 
 ### `Improvements to be made:`
-  * _Still wanting to clean up layout a bit._
+_Still wanting to clean up layout a bit._
       
 ![GifTastico!](https://jonmeidell.github.io/GifTastic/assets/images/readme.gif)
 </div>
