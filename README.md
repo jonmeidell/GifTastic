@@ -19,6 +19,7 @@ _Javascript_
 
 ### `Improvements to be made:`
 _Still wanting to clean up layout a bit._
+_Rearrangement of buttons so that the add button is above the GIF shortcut buttons._
       
 ![GifTastico!](https://jonmeidell.github.io/GifTastic/assets/images/readme.gif)
 </div>
