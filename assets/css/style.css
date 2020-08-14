@@ -1,7 +1,6 @@
 button {
     margin-top: 5px;
     border-radius: 3px;
-    background-color: #6fcaff;
 }
 
 body {
@@ -43,6 +42,14 @@ p {
     width: fit-content;
 }
 
+.clickMe {
+    background-color: #a16fff;
+}
+
 .gifButtons {
-    margin: 5px;
+    background-color: #6fcaff;
+}
+
+.gifInputDiv {
+    justify-content: center;
 }
