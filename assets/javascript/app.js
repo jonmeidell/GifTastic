@@ -54,6 +54,8 @@ $(document).ready(function () {
     });
 
     $(".clickMe").on("click", function () {
+        // clears out gifs in area before callin-up new gifs
+        gifAreaDiv.textContent="";
         var topic = $("#gifTopic-input").val();
         buttons.push(topic);
         populateButtons();
