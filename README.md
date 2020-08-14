@@ -4,7 +4,7 @@
 
 ![Example1](https://jonmeidell.github.io/GifTastic/assets/images/example1.PNG)
 
-_**A site used to generate gifs based off of the search entered into the search-bar, 10 at-a-time.**_
+_**A site used to generate gifs based off of the search entered into the search-bar, 10 at-a-time.  Also added a rating filter to make this site more family friendly by only allowing up to PG ratings on GIF searches.**_
 
 When you search for gifs, it creates a quick-link button that you can re-use again-and-again.
 
