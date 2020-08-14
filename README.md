@@ -22,3 +22,5 @@ _Still wanting to clean up layout a bit._
       
 ![GifTastico!](https://jonmeidell.github.io/GifTastic/assets/images/readme.gif)
 </div>
+
+###### Note: screenshots are for an outdated layout on the page
